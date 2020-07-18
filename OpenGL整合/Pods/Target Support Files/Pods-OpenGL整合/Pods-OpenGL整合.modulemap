@@ -1,0 +1,6 @@
+framework module Pods_OpenGL__ {
+  umbrella header "Pods-OpenGL整合-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7BC20224C2E0D300BA4358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7BC20124C2E0D300BA4358 /* Assets.xcassets */; };
+		0B7BC21124C2E1B700BA4358 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BC20F24C2E1B700BA4358 /* main.cpp */; };
+		0B7BC21324C2E35200BA4358 /* Pods_OpenGL整合.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7BC21224C2E35200BA4358 /* Pods_OpenGL整合.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B7BC1F824C2E0CF00BA4358 /* OpenGL整合.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL整合.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7BC20124C2E0D300BA4358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B7BC20624C2E0D300BA4358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7BC20924C2E0D300BA4358 /* OpenGL__.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGL__.entitlements; sourceTree = "<group>"; };
+		0B7BC20F24C2E1B700BA4358 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0B7BC21224C2E35200BA4358 /* Pods_OpenGL整合.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_OpenGL整合.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345FE4DD9B4D830BA34613D3 /* Pods-OpenGL整合.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGL整合.debug.xcconfig"; path = "Target Support Files/Pods-OpenGL整合/Pods-OpenGL整合.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4D34D4C78F76C8F49B4B34 /* Pods-OpenGL整合.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGL整合.release.xcconfig"; path = "Target Support Files/Pods-OpenGL整合/Pods-OpenGL整合.release.xcconfig"; sourceTree = "<group>"; };
+		5E33E0B5112EE670B88203F7 /* Pods_OpenGL__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGL__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B7BC1F524C2E0CF00BA4358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7BC21324C2E35200BA4358 /* Pods_OpenGL整合.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7BC1EF24C2E0CF00BA4358 = {
+			isa = PBXGroup;
+			children = (
+				0B7BC1FA24C2E0CF00BA4358 /* OpenGL整合 */,
+				0B7BC1F924C2E0CF00BA4358 /* Products */,
+				978FD8E666E345F94AA19077 /* Pods */,
+				BB94115CCB00C57470492107 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B7BC1F924C2E0CF00BA4358 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BC1F824C2E0CF00BA4358 /* OpenGL整合.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B7BC1FA24C2E0CF00BA4358 /* OpenGL整合 */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BC20124C2E0D300BA4358 /* Assets.xcassets */,
+				0B7BC20624C2E0D300BA4358 /* Info.plist */,
+				0B7BC20924C2E0D300BA4358 /* OpenGL__.entitlements */,
+				0B7BC20F24C2E1B700BA4358 /* main.cpp */,
+			);
+			path = "OpenGL整合";
+			sourceTree = "<group>";
+		};
+		978FD8E666E345F94AA19077 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				345FE4DD9B4D830BA34613D3 /* Pods-OpenGL整合.debug.xcconfig */,
+				3B4D34D4C78F76C8F49B4B34 /* Pods-OpenGL整合.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB94115CCB00C57470492107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BC21224C2E35200BA4358 /* Pods_OpenGL整合.framework */,
+				5E33E0B5112EE670B88203F7 /* Pods_OpenGL__.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B7BC1F724C2E0CF00BA4358 /* OpenGL整合 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7BC20C24C2E0D300BA4358 /* Build configuration list for PBXNativeTarget "OpenGL整合" */;
+			buildPhases = (
+				313151514CF4BA31373808CD /* [CP] Check Pods Manifest.lock */,
+				0B7BC1F424C2E0CF00BA4358 /* Sources */,
+				0B7BC1F524C2E0CF00BA4358 /* Frameworks */,
+				0B7BC1F624C2E0CF00BA4358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL整合";
+			productName = "OpenGL整合";
+			productReference = 0B7BC1F824C2E0CF00BA4358 /* OpenGL整合.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B7BC1F024C2E0CF00BA4358 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "马～";
+				TargetAttributes = {
+					0B7BC1F724C2E0CF00BA4358 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 0B7BC1F324C2E0CF00BA4358 /* Build configuration list for PBXProject "OpenGL整合" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B7BC1EF24C2E0CF00BA4358;
+			productRefGroup = 0B7BC1F924C2E0CF00BA4358 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B7BC1F724C2E0CF00BA4358 /* OpenGL整合 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B7BC1F624C2E0CF00BA4358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7BC20224C2E0D300BA4358 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		313151514CF4BA31373808CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGL整合-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B7BC1F424C2E0CF00BA4358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7BC21124C2E1B700BA4358 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B7BC20A24C2E0D300BA4358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B7BC20B24C2E0D300BA4358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B7BC20D24C2E0D300BA4358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345FE4DD9B4D830BA34613D3 /* Pods-OpenGL整合.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL整合/OpenGL__.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL整合/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oc.OpenGL--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B7BC20E24C2E0D300BA4358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4D34D4C78F76C8F49B4B34 /* Pods-OpenGL整合.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL整合/OpenGL__.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL整合/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oc.OpenGL--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B7BC1F324C2E0CF00BA4358 /* Build configuration list for PBXProject "OpenGL整合" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7BC20A24C2E0D300BA4358 /* Debug */,
+				0B7BC20B24C2E0D300BA4358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7BC20C24C2E0D300BA4358 /* Build configuration list for PBXNativeTarget "OpenGL整合" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7BC20D24C2E0D300BA4358 /* Debug */,
+				0B7BC20E24C2E0D300BA4358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B7BC1F024C2E0CF00BA4358 /* Project object */;
+}
